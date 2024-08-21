@@ -97,18 +97,11 @@ A API expõe um endpoint que recebe notificações de eventos do UiPath Orchestr
   ```json
   {
   "Type": "queue.created",
-  "EventId": "d20b0839229443e8ab36c8fbb7cc8953",
-  "Timestamp": "2018-11-26T14:31:14.4357176Z",
   "Queues": [
     {
       "Id": 40079,
       "Name": "new-queue-definition-name",
-      "Description": "This the description of the queue.",
-      "MaxNumberOfRetries": 3,
-      "AcceptAutomaticallyRetry": true,
-      "EnforceUniqueReference": true
-      "SlaInMinutes": 1500,
-      "RiskSlaInMinutes": 1140
+      "Description": "This the description of the queue."
     }
   ],
   "TenantId": 1,
