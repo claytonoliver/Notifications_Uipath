@@ -28,6 +28,7 @@ A API expõe um endpoint que recebe notificações de eventos do UiPath Orchestr
 1. **Criar um Bot no Telegram**
 
    - Acesse [BotFather](https://t.me/botfather) no Telegram e crie um novo bot.
+   - Comando para criar um novo bot: /newbot
    - Copie o token do bot fornecido.
 
 2. **Configurar o UiPath Orchestrator**
